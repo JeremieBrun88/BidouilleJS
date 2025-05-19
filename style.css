@@ -1,0 +1,58 @@
+*{
+    margin-top: auto;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.pad {
+    padding-bottom: 30px;
+    padding-right: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.alignCenter {
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    font-size: 44px;
+}
+
+h2 {
+    color: blue;
+    font-size: 35px ;
+}
+
+.border {
+    border-radius: 30px;
+    border: black solid 3px;
+    box-shadow: 2px 2px 15px rgb(40, 134, 241);
+}
+
+.card {
+ width: 30%;
+ background-color: aquamarine;
+ 
+}
+
+.card img {
+  object-fit: cover;
+  width: 400px;
+  height: 400px;
+}
