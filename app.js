@@ -4,7 +4,7 @@ fetch('https://fakestoreapi.com/products')
 
         console.log(data[0].title)
 
-        data.forEach(produit =>{
+        data.forEach(produit => {
             document.body.innerHTML += `
 
     
@@ -18,21 +18,20 @@ fetch('https://fakestoreapi.com/products')
             <div class="">
                 <p>${produit.description}</p>
             </div>
-            <div class=" alignCenter">${produit.price} €</div>
+            <div class="font alignCenter spaceBetween flex"><p>${produit.price} €</p>
+            <p class=" btn ">Acheter</p></div>
         </div>
 
 
  
     `
         });
-
-
-
-
-
-    
-
-
-
     });
 
+// Créer des catérogies (calquées sur "produit.category"), pour venir cibler directement les produits intéressant pour moi! //
+
+console.log(data.category)
+
+data.forEach(category => {
+
+})
